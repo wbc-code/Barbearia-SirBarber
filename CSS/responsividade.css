@@ -1,0 +1,448 @@
+/********** Responsividade **********/
+
+@media screen and (max-width: 320px) {
+
+  .header {
+    flex-direction: column;
+    border-bottom: 1px solid #fff; 
+  }
+
+  .header svg {
+    width: 11rem;
+  }
+
+  .header a {
+    display: none;
+  }
+
+  .header svg {
+    margin-bottom: 1rem;
+  }
+
+  #hero-container {
+    padding: 0;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding: 48px 20px 0px;
+  }
+
+  .hero-text__title {
+    font-size: 32px;
+    line-height: 40px;
+  } 
+
+  .hero-img img {
+    max-width: 280px;
+    padding: 20px 20px 0px;
+    /* margin: 0 2rem; */
+    /* padding: 10px; */    
+  }  
+
+  .hero-text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+  }
+
+  #services-container {  
+    padding: 48px 20px;    
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .overtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #location-container {
+    padding: 48px 20px;
+  }
+
+  header .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .maps-location {
+    height: 15rem;
+  }
+
+  footer {
+    padding: 10px 20px;    
+  }
+
+  .container-grid {
+    flex-direction: column;
+  }
+
+  .footer-logocopy {
+    align-items: center;
+  }
+
+  .footer-logocopy span {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    
+  }
+
+} 
+
+
+@media screen and (max-width: 375px) {
+
+  .header {
+    flex-direction: column;
+    border-bottom: 1px solid #fff; 
+  }
+
+  .header svg {
+    width: 11rem;
+  }
+
+  .header a {
+    display: none;
+  }
+
+  .header svg {
+    margin-bottom: 1rem;
+  }
+
+  #hero-container {
+    padding: 0;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding: 48px 20px 0px;
+  }
+
+  .hero-text__title {
+    font-size: 32px;
+    line-height: 40px;
+  } 
+
+  .hero-img img {
+    max-width: 280px;
+    padding: 20px 20px 0px;
+    /* margin: 0 2rem; */
+    /* padding: 10px; */    
+  }  
+
+  .hero-text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+  }
+
+  #services-container {  
+    padding: 48px 20px;    
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .overtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #location-container {
+    padding: 48px 20px;
+  }
+
+  header .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .maps-location {
+    height: 15rem;
+  }
+
+  footer {
+    padding: 10px 20px;    
+  }
+
+  .container-grid {
+    flex-direction: column;
+  }
+
+  .footer-logocopy {
+    align-items: center;
+  }
+
+  .footer-logocopy span {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    
+  }
+
+} 
+
+@media screen and (max-width: 425px) {
+
+  .header {
+    flex-direction: column;
+    border-bottom: 1px solid #fff; 
+  }
+
+  .header svg {
+    width: 11rem;
+  }
+
+  .header a {
+    display: none;
+  }
+
+  .header svg {
+    margin-bottom: 1rem;
+  }
+
+  #hero-container {
+    padding: 0;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding: 48px 20px 0px;
+  }
+
+  .hero-text__title {
+    font-size: 32px;
+    line-height: 40px;
+  } 
+
+  .hero-img img {
+    max-width: 280px;
+    padding: 20px 20px 0px;
+    /* margin: 0 2rem; */
+    /* padding: 10px; */    
+  }  
+
+  .hero-text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+  }
+
+  #services-container {  
+    padding: 48px 20px;    
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .overtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #location-container {
+    padding: 48px 20px;
+  }
+
+  header .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .maps-location {
+    height: 15rem;
+  }
+
+  footer {
+    padding: 10px 20px;    
+  }
+
+  .container-grid {
+    flex-direction: column;
+  }
+
+  .footer-logocopy {
+    align-items: center;
+  }
+
+  .footer-logocopy span {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    /* flex-direction: column; */
+    border-bottom: 1px solid #fff; 
+  }
+
+  .header svg {
+    width: 11rem;
+  }
+
+  /* .header a {
+    display: none;
+  } */
+
+  .header svg {
+    margin-bottom: 1rem;
+  }
+
+  #hero-container {
+    padding: 0;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding: 48px 20px 0px;
+  }
+
+  .hero-text__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero-img {
+    align-self: auto;
+  }
+
+  .hero-img img {
+    max-width: 500px;
+    padding: 20px 20px 0px;  
+  }  
+
+  .hero-text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+  }
+
+  #services-container {  
+    padding: 48px 20px;    
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+  }
+
+  /* .services-list {
+    flex-direction: column;
+  } */
+
+  .overtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #location-container {
+    padding: 48px 20px;
+  }
+
+  header .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .maps-location {
+    height: 15rem;
+  }
+
+  footer {
+    padding: 10px 20px;    
+  }
+
+  .container-grid {
+    flex-direction: column;
+  }
+
+  .footer-logocopy {
+    align-items: center;
+  }
+
+  .footer-logocopy span {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    
+  }
+
+} 
